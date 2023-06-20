@@ -1,10 +1,15 @@
-#include <unistd.h>
+#include "unistd.h"
 /**
- * _putchar - writes c to stdout
- * @c: The character to print
- * Return: On success 1
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
-}
+	char a[] = "Unistd";
+		int b;
+
+	for (b = 0; b < 9; b++)
+		_putchar(a[b]);
+	_putchar('\n');
+	return (0);
