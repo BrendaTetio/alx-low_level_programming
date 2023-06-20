@@ -7,8 +7,7 @@
 #include "main.h"
 
 /**
- * void print_alphabet(void) - prints the alphabet in lowercase, followed by a new line.
- * char - outlines the variable name.
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
 void print_alphabet(void)
 {
