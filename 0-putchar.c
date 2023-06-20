@@ -1,16 +1,10 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * _putchar - writes c to stdout
+ * @c: The character to print
+ * Return: On success 1
  */
-int main(void)
+int _putchar(char c)
 {
-	char a[] = "stdio";
-		int b;
-
-	for (b = 0; b < 9; b++)
-		_putchar(a[b]);
-	_putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
