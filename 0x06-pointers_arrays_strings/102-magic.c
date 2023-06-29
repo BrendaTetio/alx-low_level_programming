@@ -1,15 +1,24 @@
 #include <stdio.h>
+#include <main.h>
 
 int main(void)
 {
-    int a[] = {98, 1988, 402, -1988, 298, -1024, 483, -98};
-    int *p;
+	int n;
+	int a[5];
+	int *p;
 
-    p = (int *)(a + 1) - 1;
-
-    /* Add your code below this line */
-    printf("a[2] = %d\n", *(p + 1));
-    
-    return (0);
+	a[2] = 1024;
+	p = &n;
+	/*
+	 * write your line of code here...
+	 * Remember:
+	 * - you are not allowed to use a
+	 * - you are not allowed to modify p
+	 * - only one statement
+	 * - you are not allowed to code anything else than this line of code
+	 */
+	*(p + 5) = 98;
+	/* ...so that this prints 98\n */
+	printf("a[2] = %d\n", a[2]);
+	return (0);
 }
-
