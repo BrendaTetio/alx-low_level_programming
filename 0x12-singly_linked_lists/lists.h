@@ -1,8 +1,7 @@
 /*
  * File: lists.h
  * Auth: BrendaTetio
- * Desc: Header file containing prototypes and definitions for all functions
- *       and types written in the 0x11-singly_linked_lists directory.
+ * Desc: Header file containing prototypes and definitions for  0x11-singly_linked_lists directory.
  */
 
 #include <stdlib.h>
@@ -14,13 +13,12 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- *              for Holberton project
  */
 typedef struct list_s
 {
-	char *str;
-	unsigned int len;
-	struct list_s *next;
+    char *str;
+    unsigned int len;
+    struct list_s *next;
 } list_t;
 
 size_t print_list(const list_t *h);

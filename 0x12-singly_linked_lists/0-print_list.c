@@ -1,6 +1,6 @@
 /*
 * File: 0-print_list.c
-* Auth: BrendaTetio
+* Author: BrendaTetio
 */
 
 #include <stdio.h>
