@@ -1,11 +1,11 @@
 #ifndef LISTS_H
 #define LISTS_H
-#include <stdlib.h>
 
 /*
- * File : lists.h
- * Author : BrendaTetio
- * Description : Header file containing prototypes and functions for 0x13-more_singly_linked_lists directory.
+ * File: lists.h
+ * Auth: Brenda Tetio
+ * Desc: Header file containing prototypes and definitions for all functions
+ *       and types written in the 0x12-more_singly_linked_lists directory.
  */
 
 #include <stdlib.h>
@@ -16,7 +16,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- *
+ * 
  */
 typedef struct listint_s
 {
