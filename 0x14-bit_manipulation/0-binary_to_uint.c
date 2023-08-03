@@ -1,3 +1,8 @@
+/*
+ * Author: BrendaTetio
+ * File: 0-binary_to_uint.c
+ */
+
 #include "main.h"
 #include <stdio.h>
 
